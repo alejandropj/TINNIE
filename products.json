@@ -1,0 +1,202 @@
+[
+	{
+		"animal": "perro",
+		"url": "./products/escaparateDog.jpg",
+		"tipo": "escaparate",
+		"alt": "Perro en coche"
+	},
+	{
+		"animal": "perro",
+		"url": "./products/carDog.jpg",
+		"tipo": "escaparate",
+		"alt": "Perro olfateando"
+	},
+	{
+		"animal": "gato",
+		"url": "./products/carCat.jpg",
+		"tipo": "escaparate",
+		"alt": "Gato curioso"
+	},
+	{
+		"animal": "perro",
+		"url": "./products/carDog2.jpg",
+		"tipo": "escaparate",
+		"alt": "Cachorro feliz"
+	},
+	{
+		"animal": "gato",
+		"url": "./products/escaparateCat.jpg",
+		"tipo": "escaparate",
+		"alt": "Gato con una corona"
+	},
+	
+	
+	
+	
+	
+	
+	
+	{
+		"animal": "perro",
+		"url": "./products/blusaDog.jpg",
+		"tipo": "ropa",
+		"alt": "Blusa negra con estampado de plantas",
+		"id":1,
+		"precio": "20.99"
+	},
+	{
+		"animal": "perro",
+		"url": "./products/camisaDog.jpg",
+		"tipo": "ropa",
+		"alt": "Camisa color mostaza",
+		"id":2,
+		"precio": "35.99"
+	},
+	{
+		"animal": "perro",
+		"url": "./products/sudaderaDog.jpg",
+		"tipo": "ropa",
+		"alt": "Sudadera color militar",
+		"id":3,
+		"precio": "25.99"
+	},
+	{
+		"animal": "perro",
+		"url": "./products/pañueloDog.jpg",
+		"tipo": "accesorio",
+		"alt": "Pañuelo blanco con rayas abstractas",
+		"id":4,
+		"precio": "5.99"
+	},
+	{
+		"animal": "perro",
+		"url": "./products/salvavidasDog.jpg",
+		"tipo": "accesorio",
+		"alt": "Chaleco salvavidas color negro",
+		"id":5,
+		"precio": "15.99"
+	},
+	{
+		"animal": "perro",
+		"url": "./products/correaCueroDog.jpg",
+		"tipo": "accesorio",
+		"alt": "Correa de cuero rojo con piedra zafiro",
+		"id":6,
+		"precio": "12.99"
+	},
+	{
+		"animal": "perro",
+		"url": "./products/payasoDog.jpg",
+		"tipo": "ropa",
+		"alt": "Traje de circo",
+		"id":7,
+		"precio": "32.99"
+	},
+	{
+		"animal": "perro",
+		"url": "./products/jerseyDog.jpg",
+		"tipo": "ropa",
+		"alt": "Jersey gris",
+		"id":8,
+		"precio": "29.99"
+	},
+	{
+		"animal": "perro",
+		"url": "./products/camisetaDog.jpg",
+		"tipo": "ropa",
+		"alt": "Camiseta roja con bordes blancos",
+		"id":9,
+		"precio": "15.99"
+	},
+	{
+		"animal": "perro",
+		"url": "./products/pajaritaDog.jpg",
+		"tipo": "accesorio",
+		"alt": "Pajarita negra",
+		"id":10,
+		"precio": "7.99"
+	},
+
+
+
+
+
+	{
+		"animal": "gato",
+		"url": "./products/collarCat.jpg",
+		"tipo": "accesorio",
+		"alt": "Collar de oro de Pitimini",
+		"id":11,
+		"precio": "4.99"
+	},{
+		"animal": "gato",
+		"url": "./products/plumasCat.jpg",
+		"tipo": "accesorio",
+		"alt": "Cama de plumas blanca",
+		"id":12,
+		"precio": "17.99"
+	},{
+		"animal": "gato",
+		"url": "./products/bragaCat.jpg",
+		"tipo": "ropa",
+		"alt": "Braga azul",
+		"id":13,
+		"precio": "14.99"
+	},{
+		"animal": "gato",
+		"url": "./products/trajeCat.jpg",
+		"tipo": "ropa",
+		"alt": "Traje con gorro morados",
+		"id":14,
+		"precio": "37.99"
+	},{
+		"animal": "gato",
+		"url": "./products/lazoBlancoCat.jpg",
+		"tipo": "accesorio",
+		"alt": "Lazo blanco de seda",
+		"id":15,
+		"precio": "3.99"
+	},{
+		"animal": "gato",
+		"url": "./products/gorroCat.jpg",
+		"tipo": "accesorio",
+		"alt": "Gorro de ducha rosa",
+		"id":16,
+		"precio": "2.99"
+	},{
+		"animal": "gato",
+		"url": "./products/correaCat.jpg",
+		"tipo": "accesorio",
+		"alt": "Correa de cuero sintético negra",
+		"id":17,
+		"precio": "4.99"
+	},{
+		"animal": "gato",
+		"url": "./products/lazoRojoCat.jpg",
+		"tipo": "accesorio",
+		"alt": "Lazo rojo de seda",
+		"id":18,
+		"precio": "3.99"
+	},{
+		"animal": "gato",
+		"url": "./products/casaCat.jpg",
+		"tipo": "accesorio",
+		"alt": "Casa multigatos",
+		"id":19,
+		"precio": "49.99"
+	},{
+		"animal": "gato",
+		"url": "./products/jugueteCat.jpg",
+		"tipo": "accesorio",
+		"alt": "Pez de juguete con palo",
+		"id":20,
+		"precio": "4.99"
+	},{
+		"animal": "gato",
+		"url": "./products/masajeCat.jpg",
+		"tipo": "accesorio",
+		"alt": "Rodillo rosa para masaje",
+		"id":21,
+		"precio": "4.99"
+	}
+]

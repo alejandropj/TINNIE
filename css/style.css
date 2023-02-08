@@ -1,0 +1,200 @@
+*{
+    font-family: "Helvetica";
+}
+.carga{
+	visibility: hidden;
+	opacity: 0%;
+	transition: .3s ease all;
+}
+.cargando {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	height: 72px;
+	width: 72px;
+	border: 8px dotted black;
+	border-radius: 100%;
+	animation: cargando 2s infinite linear;
+  }
+
+/*FORMULARIO*/
+input{
+	border: 1px solid #BBBBBB;
+    line-height: 52px;
+	text-align: center;
+}
+#registro input:invalid {
+	border: 2px dashed black;
+}
+.animError {
+	animation-name: bounce;
+	animation-duration: .5s;
+	animation-delay: 0.25s;
+}
+
+/*MAPA*/
+#mapa {
+	border: 1px solid black;
+	height: 300px;
+	z-index: 0;
+}
+
+/* ------------------------- */
+/* ARTICULOS */
+/* ------------------------- */
+#carouselExampleInterval{
+	z-index: 0;
+}
+.articulo{
+	position: relative;
+	display: inline-block;
+}
+.car{	
+	transform: scale(1); 
+	opacity: 1;
+	transition: .3s ease all;
+}
+.car.activo {	
+	transform: scale(0.95);
+	transition: .3s ease all;
+}
+.fondoFlotante{
+	background: black;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0;
+	transition: .3s ease all;
+}
+.fondoFlotante.activo{
+	opacity: 20%;
+	transition: .3s ease all;
+}
+.textoFlotante{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0;
+}
+.textoFlotante.activo{
+	opacity: 100%;
+	transition: .3s ease all;
+}
+
+/* ------------------------- */
+/* POPUP */
+/* ------------------------- */
+
+.fondo {
+	background: rgba(0,0,0,.3);
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.popup {
+	text-align: center;
+	transition: .3s ease all;
+	transform: scale(0.7);
+	opacity: 0;
+}
+
+.popup .btnCerrar {
+	display: block;
+	text-align: left;
+	transition: .3s ease all;
+	opacity: 0.5;
+}
+
+.popup .btnCerrar:hover {
+	opacity: 1;
+	transition: .3s ease all;
+}
+
+.popup h3 {
+	font-size: 36px;
+	font-weight: 600;
+}
+
+.popup h4 {
+	font-size: 26px;
+	font-weight: 300;
+}
+
+.popup form .form-control {
+    line-height: 35px;
+    font-size: 20px;
+}
+
+.popup form .btnSubmit {
+	padding: 0 20px;
+	height: 40px;
+	line-height: 40px;
+	transition: .3s ease all;
+}
+
+.popup form .btnSubmit:hover {
+	background: white;
+    color: black;
+}
+
+.popup .articulos{
+	height: 600px;
+	overflow-y: scroll;
+}
+
+/* ------------------------- */
+/* ANIMACIONES */
+/* ------------------------- */
+.popup.activo {	transform: scale(1); opacity: 1; }
+
+/*ANIMACION CARGA*/
+@keyframes cargando {
+	0% {
+	  transform: rotate(0deg);
+	}
+  
+	100% {
+	  transform: rotate(360deg);
+	}
+  }
+  @keyframes bounce {
+	0% {
+	  transform: translateX(0px);
+	  timing-function: ease-in;
+	}
+	37% {
+	  transform: translateX(5px);
+	  timing-function: ease-out;
+	}
+	55% {
+	  transform: translateX(-5px);
+	  timing-function: ease-in;
+	}
+	73% {
+	  transform: translateX(4px);
+	  timing-function: ease-out;
+	}
+	82% {
+	  transform: translateX(-4px);
+	  timing-function: ease-in;
+	}
+	91% {
+	  transform: translateX(2px);
+	  timing-function: ease-out;
+	}
+	96% {
+	  transform: translateX(-2px);
+	  timing-function: ease-in;
+	}
+	100% {
+	  transform: translateX(0px);
+	  timing-function: ease-in;
+	}
+}
